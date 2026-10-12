@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sempol Ayam Bang R. | Camilan Rp1.000 / Tusuk</title>
+<meta name="description" content="Sempol ayam Bang R. - camilan gurih Rp1.000 per tusuk. Pesan via WhatsApp atau Instagram.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container header-inner">
+    <a href="#beranda" class="logo">
+      <span class="logo-badge">R</span>
+      <span class="logo-text"><strong>Sempol Ayam Bang R.</strong><small>Street Food Lezat</small></span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="#beranda" data-section="beranda">Beranda</a>
+      <a href="#keunggulan" data-section="keunggulan">Keunggulan</a>
+      <a href="#menu" data-section="menu">Menu</a>
+      <a href="#cara-pemesanan" data-section="cara-pemesanan">Cara Pesan</a>
+      <a href="#lokasi" data-section="lokasi">Lokasi</a>
+      <a href="#menu" class="btn btn-red nav-cta">🛍️ Pesan Sekarang</a>
+    </nav>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu">☰</button>
+  </div>
+</header>
+
+<section id="beranda" class="hero">
+  <div class="container hero-grid">
+    <div class="hero-text">
+      <span class="badge">✨ CAMILAN FAVORITMU!</span>
+      <h1>Sempol Ayam <br><span class="hl">Bang R.</span></h1>
+      <p class="lead">Camilan sempol ayam yang cocok menemani waktu santai, kuliah, dan kumpul bareng teman. Lezat, gurih, dan bikin ketagihan!</p>
+      <div class="price-row">
+        <div class="price-box">
+          <small>HARGA SPESIAL</small>
+          <strong>Rp1.000 <span>/ tusuk</span></strong>
+        </div>
+        <div class="price-notes">
+          <p>✨ Pas untuk kantong pelajar &amp; mahasiswa</p>
+          <p>🌶️ Disajikan dengan saus sambal nikmat</p>
+        </div>
+      </div>
+      <div class="hero-btns">
+        <a href="#menu" class="btn btn-red btn-lg">🛍️ Pesan via WhatsApp</a>
+        <a href="https://www.instagram.com/sempolayambangr/" target="_blank" rel="noopener noreferrer" class="btn btn-white btn-lg">📸 Pesan via Instagram</a>
+      </div>
+    </div>
+    <div class="hero-img-wrap">
+      <div class="hero-card">
+        <img src="https://cdn.phototourl.com/member/2026-10-12-62a0c003-285e-4c59-85f0-d4153c3e42f5.jpg" alt="Sempol ayam Bang R. dengan saus sambal" data-fallback="https://placehold.co/600x600/C9251C/FFFFFF?text=Sempol+Ayam+Bang+R.">
+        <span class="img-tag">🔥 100% Menggugah Selera</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="keunggulan" class="section section-white">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Keunggulan Kami</span>
+      <h2>Kenapa Pilih Sempol Ayam Bang R.?</h2>
+      <p>Camilan sederhana yang praktis, terjangkau, dan cocok untuk berbagai suasana santai kamu.</p>
+    </div>
+    <div class="grid-4">
+      <div class="card"><div class="icon">💰</div><h3>Harga Ramah Kantong</h3><p>Hanya Rp1.000 per tusuk, jadi kamu bisa menyesuaikan jumlah pesanan dengan budget.</p></div>
+      <div class="card"><div class="icon">🍢</div><h3>Praktis Dinikmati</h3><p>Disajikan dalam bentuk tusukan yang praktis untuk camilan sehari-hari di mana saja.</p></div>
+      <div class="card"><div class="icon">🌶️</div><h3>Nikmat dengan Saus</h3><p>Lengkapi pengalaman ngemil dengan saus sambal khas sebagai pendamping setia.</p></div>
+      <div class="card"><div class="icon">👫</div><h3>Cocok untuk Bareng Teman</h3><p>Pesan beberapa tusuk sekaligus untuk dinikmati saat santai atau berkumpul bersama kawan.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="menu" class="section">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Pemesanan Cepat</span>
+      <h2>Pilih Menu Favoritmu</h2>
+      <p>Atur jumlah tusukan sempol ayam sesuai keinginanmu dan kirim pesanan langsung via WhatsApp.</p>
+    </div>
+
+    <div class="order-grid">
+      <div class="panel">
+        <div class="product">
+          <img src="https://cdn.phototourl.com/member/2026-10-12-62a0c003-285e-4c59-85f0-d4153c3e42f5.jpg" alt="Sempol Ayam Bang R." data-fallback="https://placehold.co/400x400/C9251C/FFFFFF?text=Sempol+Ayam">
+          <div>
+            <span class="badge badge-sm">BEST SELLER</span>
+            <h3 class="product-title">Sempol Ayam Bang R.</h3>
+            <p class="muted">Sempol ayam gurih dengan saus sambal sebagai pelengkap yang menggugah selera.</p>
+            <div class="unit-price"><small>Harga Satuan:</small> <strong>Rp1.000</strong> <span>/ tusuk</span></div>
+          </div>
+        </div>
+        <hr>
+
+        <div class="field">
+          <label class="label-row"><span>Mau berapa tusuk? (1 - 500)</span><span class="red" id="qtyLabel">10 Tusuk</span></label>
+          <div class="stepper">
+            <button type="button" id="minusBtn" aria-label="Kurangi jumlah">−</button>
+            <input type="number" id="qtyInput" min="1" max="500" value="10">
+            <button type="button" id="plusBtn" aria-label="Tambah jumlah">+</button>
+          </div>
+          <div class="quick" id="quickBtns">
+            <button type="button" data-qty="5">5 Tusuk</button>
+            <button type="button" data-qty="10" class="active">10 Tusuk</button>
+            <button type="button" data-qty="20">20 Tusuk</button>
+            <button type="button" data-qty="50">50 Tusuk</button>
+            <button type="button" data-qty="100">100 Tusuk</button>
+          </div>
+        </div>
+
+        <form id="orderForm" novalidate>
+          <div class="field">
+            <label for="customerName">Nama Pemesan <span class="red">*</span></label>
+            <input type="text" id="customerName" class="input" placeholder="Masukkan nama kamu">
+            <p class="error" id="nameError" hidden>Harap masukkan nama pemesan terlebih dahulu.</p>
+          </div>
+
+          <div class="field">
+            <label>Jenis Pesanan</label>
+            <div class="radios" id="orderTypes">
+              <label class="radio active"><input type="radio" name="order_type" value="Konfirmasi pesanan dengan penjual" checked><span>Konfirmasi pesanan dengan penjual</span></label>
+              <label class="radio"><input type="radio" name="order_type" value="Ambil sendiri"><span>Ambil sendiri</span></label>
+              <label class="radio"><input type="radio" name="order_type" value="Tanya opsi pengantaran kepada penjual"><span>Tanya opsi pengantaran kepada penjual</span></label>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="customerNotes">Catatan Tambahan <small class="muted">(Opsional)</small></label>
+            <textarea id="customerNotes" class="input" rows="3" placeholder="Contoh: pertanyaan mengenai saus atau waktu pengambilan"></textarea>
+          </div>
+        </form>
+      </div>
+
+      <aside class="summary">
+        <div class="summary-head">
+          <div><h3>Ringkasan Pesanan</h3><p>Perhitungan otomatis harga sempol ayam</p></div>
+          <span class="summary-icon">🛍️</span>
+        </div>
+        <div class="row"><span>Menu</span><b>Sempol Ayam</b></div>
+        <div class="row"><span>Harga per tusuk</span><b>Rp1.000</b></div>
+        <div class="row"><span>Jumlah tusuk</span><b class="gold" id="sumQty">10 Tusuk</b></div>
+        <div class="row"><span>Nama Pemesan</span><b id="sumName" class="empty">Belum diisi</b></div>
+        <div class="row"><span>Jenis Pesanan</span><b id="sumType" class="small">Konfirmasi pesanan dengan penjual</b></div>
+        <div class="row row-notes" id="sumNotesRow" hidden><span>Catatan:</span><em id="sumNotes"></em></div>
+
+        <div class="total">
+          <div><small>TOTAL HARGA PRODUK</small><span>Belum termasuk ongkir (jika ada)</span></div>
+          <strong id="sumTotal">Rp10.000</strong>
+        </div>
+
+        <div class="toast" id="toast" hidden>✅ Ringkasan pesanan berhasil disalin! Silakan tempel di Instagram/WhatsApp.</div>
+
+        <button type="button" id="waBtn" class="btn btn-wa btn-block">💬 Lanjut Pesan via WhatsApp</button>
+        <div class="two">
+          <button type="button" id="copyBtn" class="btn btn-ghost">📋 Salin Ringkasan</button>
+          <a href="https://www.instagram.com/sempolayambangr/" target="_blank" rel="noopener noreferrer" class="btn btn-ghost">📸 Tanya via Instagram</a>
+        </div>
+        <p class="disclaimer">*Pesanan belum dikonfirmasi sampai kamu mengirimkan pesan WhatsApp dan mendapatkan konfirmasi langsung dari penjual.</p>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section id="cara-pemesanan" class="section section-white">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Panduan Mudah</span>
+      <h2>Gampang Banget Cara Pesannya!</h2>
+      <p>Hanya 4 langkah praktis untuk menikmati sempol ayam lezat dari Bang R.</p>
+    </div>
+    <div class="grid-4">
+      <div class="card step"><span class="step-bg">01</span><div class="step-no">01</div><h3>Pilih Jumlah</h3><p>Tentukan berapa tusuk sempol ayam yang kamu inginkan menggunakan pengatur jumlah di menu.</p></div>
+      <div class="card step"><span class="step-bg">02</span><div class="step-no">02</div><h3>Isi Detail Pesanan</h3><p>Masukkan nama pemesan, pilih jenis pesanan, dan tambahkan catatan jika diperlukan.</p></div>
+      <div class="card step"><span class="step-bg">03</span><div class="step-no">03</div><h3>Kirim via WhatsApp</h3><p>Periksa ringkasan pesanan, lalu klik tombol untuk melanjutkan langsung ke WhatsApp.</p></div>
+      <div class="card step"><span class="step-bg">04</span><div class="step-no">04</div><h3>Konfirmasi dengan Penjual</h3><p>Kirim pesan dan tunggu konfirmasi ketersediaan, waktu, serta cara pengambilan dari Bang R.</p></div>
+    </div>
+    <div class="center mt"><a href="#menu" class="btn btn-red btn-lg">Mulai Pesan Sekarang →</a></div>
+  </div>
+</section>
+
+<section id="kontak" class="section">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Hubungi Kami</span>
+      <h2>Yuk, Pesan Sempol Ayam!</h2>
+      <p>Saluran resmi komunikasi dan pemesanan Sempol Ayam Bang R.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="panel contact">
+        <div class="icon icon-wa">💬</div>
+        <h3>WhatsApp Resmi</h3>
+        <p class="muted">Hubungi kami secara langsung untuk pemesanan cepat dan konfirmasi ketersediaan.</p>
+        <div class="contact-box"><span>+62 852-8656-2298</span><em class="tag tag-wa">Online</em></div>
+        <a href="https://wa.me/6285286562298" target="_blank" rel="noopener noreferrer" class="btn btn-wa btn-block">Chat WhatsApp ↗</a>
+      </div>
+      <div class="panel contact">
+        <div class="icon icon-ig">📸</div>
+        <h3>Instagram Resmi</h3>
+        <p class="muted">Ikuti perkembangan terbaru, foto keseruan, dan info menarik lainnya.</p>
+        <div class="contact-box"><span>@sempolayambangr</span><em class="tag tag-ig">Follow</em></div>
+        <a href="https://www.instagram.com/sempolayambangr/" target="_blank" rel="noopener noreferrer" class="btn btn-red btn-block">Kunjungi Instagram ↗</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="lokasi" class="section section-white">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Titik Penjualan</span>
+      <h2>Temukan Lokasi Kami</h2>
+      <p>Lihat lokasi Sempol Ayam Bang R. melalui Google Maps untuk pengambilan pesanan.</p>
+    </div>
+    <div class="location">
+      <div class="icon icon-red">📍</div>
+      <h3>Sempol Ayam Bang R.</h3>
+      <p class="muted">Klik tombol di bawah untuk membuka peta lokasi resmi di Google Maps dan panduan rute perjalanan.</p>
+      <a href="https://maps.app.goo.gl/kwGg1bFqrHo7M2R3A" target="_blank" rel="noopener noreferrer" class="btn btn-red btn-lg">📍 Buka Lokasi di Google Maps ↗</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand"><span class="logo-badge">R</span><strong>Sempol Ayam Bang R.</strong></div>
+        <p>Camilan sederhana, harga bersahabat. Lezat dinikmati kapan saja bersama teman dan keluarga.</p>
+        <div class="socials">
+          <a href="https://wa.me/6285286562298" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" class="s-wa">💬</a>
+          <a href="https://www.instagram.com/sempolayambangr/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="s-ig">📸</a>
+        </div>
+      </div>
+      <div>
+        <h4>Navigasi Cepat</h4>
+        <ul>
+          <li><a href="#beranda">Beranda</a></li>
+          <li><a href="#keunggulan">Keunggulan</a></li>
+          <li><a href="#menu">Menu &amp; Pesan</a></li>
+          <li><a href="#cara-pemesanan">Cara Pemesanan</a></li>
+          <li><a href="#lokasi">Lokasi Google Maps</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Kontak</h4>
+        <p>WhatsApp:<br><strong>+62 852-8656-2298</strong></p>
+        <p>Instagram:<br><strong>@sempolayambangr</strong></p>
+        <p class="faint">Harga: Rp1.000 / tusuk</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span id="year"></span> Sempol Ayam Bang R. All rights reserved.</p>
+      <p>Dibuat khusus untuk pencinta street food Indonesia.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
